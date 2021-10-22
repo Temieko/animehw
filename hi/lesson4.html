@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com./ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css">
+    <script src="jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+    <!--<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+
+
+    <script>
+        $(function () {
+            $(document).tooltip();
+            $("#name").tooltip({
+                content: "<strong>Enter text! </strong>",
+                track: true
+            });
+            $("#name2").tooltip({
+                content: "<strong>Enter text! </strong>",
+                track: true
+            });
+        });
+
+    </script>
+    <style>
+        label {
+            display: inline-block;
+            width: 5em;
+        }
+    </style>
+
+
+    <script>
+        $(function () {
+            $("#slider").slider({
+                animate: "slow",
+                range: "min",
+                values: [10, 100],
+                slide: function (event, ui) {
+                    $("#result").text("от " + ui.values[0] + " до " + ui.values[1]);
+                }
+            });
+            $("#result").text("от " + $("#slider").slider("values", 0) + " до " + $("#slider").slider("values", 1));
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#slider2").slider({
+                animate: "slow",
+                range: "min",
+                values: [10, 100],
+                slide: function (event, ui) {
+                    $("#result2").text("от " + ui.values[0] + " до " + ui.values[1]);
+                }
+            });
+            $("#result2").text("от " + $("#slider2").slider("values", 0) + " до " + $("#slider2").slider("values", 1));
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $("#slider3").slider({
+                animate: "slow",
+                range: "min",
+                values: [10, 100],
+                slide: function (event, ui) {
+                    $("#result3").text("от " + ui.values[0] + " до " + ui.values[1]);
+                }
+            });
+            $("#result3").text("от " + $("#slider3").slider("values", 0) + " до " + $("#slider3").slider("values", 1));
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $("#slider4").slider({
+                animate: "slow",
+                range: "min",
+                values: [10, 100],
+                slide: function (event, ui) {
+                    $("#result4").text("от " + ui.values[0] + " до " + ui.values[1]);
+                }
+            });
+            $("#result4").text("от " + $("#slider4").slider("values", 0) + " до " + $("#slider4").slider("values", 1));
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $("#slider5").slider({
+                animate: "slow",
+                range: "min",
+                values: [10, 100],
+                slide: function (event, ui) {
+                    $("#result5").text("от " + ui.values[0] + " до " + ui.values[1]);
+                }
+            });
+            $("#result5").text("от " + $("#slider5").slider("values", 0) + " до " + $("#slider5").slider("values", 1));
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $("#slider6").slider({
+                animate: "slow",
+                range: "min",
+                values: [10, 100],
+                slide: function (event, ui) {
+                    $("#result6").text("от " + ui.values[0] + " до " + ui.values[1]);
+                }
+            });
+            $("#result6").text("от " + $("#slider6").slider("values", 0) + " до " + $("#slider6").slider("values", 1));
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $("#slider7").slider({
+                animate: "slow",
+                range: "min",
+                values: [10, 100],
+                slide: function (event, ui) {
+                    $("#result7").text("от " + ui.values[0] + " до " + ui.values[1]);
+                }
+            });
+            $("#result7").text("от " + $("#slider7").slider("values", 0) + " до " + $("#slider7").slider("values", 1));
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $("#slider8").slider({
+                animate: "slow",
+                range: "min",
+                values: [10, 100],
+                slide: function (event, ui) {
+                    $("#result8").text("от " + ui.values[0] + " до " + ui.values[1]);
+                }
+            });
+            $("#result8").text("от " + $("#slider8").slider("values", 0) + " до " + $("#slider8").slider("values", 1));
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $("#slider9").slider({
+                animate: "slow",
+                range: "min",
+                values: [10, 100],
+                slide: function (event, ui) {
+                    $("#result9").text("от " + ui.values[0] + " до " + ui.values[1]);
+                }
+            });
+            $("#result9").text("от " + $("#slider9").slider("values", 0) + " до " + $("#slider9").slider("values", 1));
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $("#slider10").slider({
+                animate: "slow",
+                range: "min",
+                values: [10, 100],
+                slide: function (event, ui) {
+                    $("#result10").text("от " + ui.values[0] + " до " + ui.values[1]);
+                }
+            });
+            $("#result10").text("от " + $("#slider10").slider("values", 0) + " до " + $("#slider10").slider("values", 1));
+        });
+    </script>
+
+    <!--<style>
+        body {
+            background: url(https://www.free-wallpapers.su/data/media/3/big/anm5209.jpg);
+        }
+    </style>-->
+
+    <style>
+        body {
+            background: url(https://p4.wallpaperbetter.com/wallpaper/792/214/365/zero-two-darling-in-the-franxx-darling-in-the-franxx-hd-wallpaper-preview.jpg);
+        }
+    </style>
+
+    <script>
+        $(function () {
+            $('#d1, #d2').dialog({
+                autoOpen: false,
+                position: ["right", "top"]
+            }).filter('#d2').dialog('option', 'position', ['right', 'bottom'])
+
+            $('#btn1, #btn2').button().click(function (e) {
+                var target = this.id == "btn1" ? "#d1" : "#d2";
+                if ($(target).dialog("isOpen")) {
+                    $(target).dialog('close')
+                } else {
+                    $(target).dialog('open')
+                }
+            })
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $('#d3, #d4').dialog({
+                autoOpen: false,
+                position: ["right", "top"]
+            }).filter('#d4').dialog('option', 'position', ['right', 'bottom'])
+
+            $('#btn3, #btn4').button().click(function (e) {
+                var target = this.id == "btn3" ? "#d3" : "#d4";
+                if ($(target).dialog("isOpen")) {
+                    $(target).dialog('close')
+                } else {
+                    $(target).dialog('open')
+                }
+            })
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $('#d6, #d7').dialog({
+                autoOpen: false,
+                position: ["right", "top"]
+            }).filter('#d7').dialog('option', 'position', ['right', 'bottom'])
+
+            $('#btn6, #btn7').button().click(function (e) {
+                var target = this.id == "btn6" ? "#d6" : "#d7";
+                if ($(target).dialog("isOpen")) {
+                    $(target).dialog('close')
+                } else {
+                    $(target).dialog('open')
+                }
+            })
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $('#d3').dialog({
+                autoOpen: false,
+                position: ["right", "top"]
+            });
+            $('#img').button().click(function (e) {
+                var target = this.id == "img" ? "#d3" : "#d2";
+                if ($(target).dialog("isOpen")) {
+                    $(target).dialog('close')
+                } else {
+                    $(target).dialog('open')
+                }
+            })
+        })
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#draggable4").draggable();
+            $("#droppable4").droppable({
+                over: function () {
+                    $("#draggable4").css("background-color", "#EEE8AA");
+                    $("#droppable4").css("background-color", "#9ACD32");
+                },
+                drop: function () {
+                    $("#draggable4").css("display", "none");
+                    $("#droppable4").css("background-color", "#7FFFD4");
+                    $("#droppable4").html("Аниме Паразит");
+                    alert("З'єднання типів.")
+                }
+            })
+        })
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#draggable5").draggable();
+            $("#droppable5").droppable({
+                over: function () {
+                    $("#draggable5").css("background-color", "yellow");
+                    $("#droppable5").css("background-color", "yellow");
+                },
+                drop: function () {
+                    $("#draggable5").css("display", "none");
+                    $("#droppable5").css("background-color", "green");
+                    $("#droppable5").html("Аниме Милый во Франксе)");
+                    alert("З'єднання типів.")
+                }
+            })
+        })
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#draggable6").draggable();
+            $("#droppable6").droppable({
+                over: function () {
+                    $("#draggable6").css("background-color", "#D8BFD8");
+                    $("#droppable6").css("background-color", "#9370DB");
+                },
+                drop: function () {
+                    $("#draggable6").css("display", "none");
+                    $("#droppable6").css("background-color", "#ADD8E6");
+                    $("#droppable6").html("Аниме Класс Убийц");
+                    alert("З'єднання типів.")
+                }
+            })
+        })
+    </script>
+
+<script>
+    $(document).ready(function () {
+        $("#draggable7").draggable();
+        $("#droppable7").droppable({
+            over: function () {
+                $("#draggable7").css("background-color", "#9370DB");
+                $("#droppable7").css("background-color", "#ADD8E6");
+            },
+            drop: function () {
+                $("#draggable7").css("display", "none");
+                $("#droppable7").css("background-color", "#D8BFD8");
+                $("#droppable7").html("Аниме Агент времени");
+                alert("З'єднання типів.")
+            }
+        })
+    })
+</script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+
+    <style>
+        .karasen{
+            text-align: right; 
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--<p><a href="#" title="That&apos;s what this widget is">Tooltips</a> can be attached to any element. When you hover
+        the element with your mouse, the title attribute is displayed in a little box next to the element, just like a
+        native tooltip.</p>
+    <p>But as it&apos;s not a native tooltip, it can be styled. Any themes built with
+        <a href="http://jqueryui.com/themeroller/"
+            title="ThemeRoller: jQuery UI&apos;s theme builder application">ThemeRoller</a>
+        will also style tooltips accordingly.
+    </p>
+    <p>Tooltips are also useful for form elements, to show some additional information in the context of each field.</p>
+    <p><label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+    <p>Hover the field to see the tooltip.</p>
+        <label for="name" >Enter: </label>
+        <input type="text" name=""  id="name" title="tooltip">
+
+        <br>
+        <label for="name2" >Enter: </label>
+        <input type="text" name=""  id="name2" title="tooltip">
+
+    
+           <div id="slider">
+              
+           </div>
+           <b>Result: <span id="result" style="color: aquamarine;"></span></b>-->
+
+    <table border="1" class="anime1">
+        <tr>
+            <th>
+                <h3 align="center"> Аниме Милый во Франксе, 02</h3>
+            </th>
+        </tr>
+        <td>
+            <p align="center"> <img width="400"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1JjlxSJxASBxGIBxTR0PPsatLOjw0k6tdRQ&usqp=CAU"
+                    alt=""> </p>
+        </td>
+        <tr>
+            <td>
+                <div id="d1" title="Хиро" class="ui-widget">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="">
+                    В детстве Хиро был весёлым и подающим надежды, давая имена себе и другим детям, в то время как коды
+                    являлись их единственными именами, таким образом стал популярен у детей. Обучал других детей, в
+                    особенности Ичиго, астрономии. Во время своего пребывания в саду Хиро задавал взрослым много
+                    вопросов об окружающем мире, но разочаровывался, когда каждый раз взрослые не отвечали ему.
+                </div>
+
+                <p align="center"> Личность</p>
+                <p> Личность у Ноль Два опасная, но притягивающая. Она — элитный пилот с псевдонимом «Убийца
+                    напарников»
+                    (
+                    パートナー殺し, Pātonā-Goroshi, Partner Killer), учитывая то, что все пилоты до Хиро не выдерживали
+                    более
+                    3-х
+                    поездок с ней.</p>
+
+                <p>Знает куда больше о внешнем мире, чем остальные члены 13 отряда. Когда Хиро спросил, почему она
+                    убивает
+                    монстров, Ноль Два сказала, что возможно это из-за того, что она сама была монстром. Возмущается
+                    и
+                    испытывает злость, когда её называют монстром.
+                    Поведение Ноль Два похоже отчасти на поведение ребенка, а от части на поведение ящерицы, т.к.
+                    она на
+                    половину Рёвозавр. Это показывается её игривым отношением к Хиро и другим членам отряда. В
+                    эпизодах
+                    1 и
+                    7 у неё прослеживается большая приязнь к воде как и у многих ящеров В Эпизоде 10 ведёт себя
+                    более
+                    меланхолично и тихо. Во время Эпизода 11, сражаясь с рёвозаврами, ведёт себя безрассудно,
+                    игнорируя
+                    приказы Ичиго, раздражаясь, что
+                    <button id="btn1">Хиро </button> мешал ей. В Эпизоде 12 Ноль Два становится более агрессивной
+                    как к
+                    Хиро, так и к рёвозаврам. Затем она многократно била мёртвого рёвозавра, безумно говоря, что ей
+                    нужно
+                    убить ещё больше, чем пугает Хиро. В Эпизоде 13 выясняется, что в прошлом она была похожа на
+                    дикое
+                    животное или дикого ребёнка. Она ела руками (что делает и сейчас), рычала и ловила мышей, чтобы
+                    их
+                    съесть. Когда Хиро пытался заставить её выплюнуть пойманную мышь, она кусает его, однако, после
+                    того
+                    как
+                    Хиро погладил её по голове, она пожалела о своём поведении. К большинству привычек её приучил
+                    Хиро,
+                    например, называть всех партнёров «любимым». В Эпизоде 14 понимает, что Хиро — её давно
+                    потерянный
+                    любимый. Но, сытая по горло выходками Ноль Два Ичиго не позволяет увидеться ей с Хиро. Ичиго
+                    даже
+                    предлагает Нане убрать Ноль Два из 13 отряда, а также отказывается брать её на следующую миссию,
+                    что
+                    приводит к недоверию и разочарованию Ноль Два по отношению к Ичиго. Но Горо убедил Итиго
+                    позволить
+                    Ноль
+                    Два посетить Хиро. Однако, когда они приходят к нему, Хиро в палате нет, из-за чего Ноль Два
+                    избивает
+                    членов 13 отряда. Когда Хиро приходит в палату, он видит, что совершила Ноль Два, и называет её
+                    монстром. Ноль Два сломалась и покинула плантацию. В Эпизоде 15 Хиро встречает и успокаивает её.
+                    Ноль
+                    Два обретает покой и её личность возвращается к прежнему, жизнерадостному "я". Ноль Два не может
+                    иметь
+                    детей, о чем она заявила в Эпизоде 17
+                </p>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slider">
+
+                </div>
+                <b>Внешность: <span id="result" style="color: aquamarine;"></span></b>
+                <div id="slider=range">
+                    <!-- <input type="text" id="min" value="100">
+                    <input type="text" id="max" value="1000">-->
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slider2">
+
+                </div>
+                <b>Характер: <span id="result2" style="color: rgb(255, 127, 234);"></span></b>
+            </td>
+        </tr>
+    </table>
+
+    <table border="2" class="anime2">
+        <tr>
+            <th>
+                <h3 align="center"> Аниме Атака Титанов, Эрен Йегер</h3>
+            </th>
+        </tr>
+        <td>
+            <p align="center"> <img width="250" src="Без названия.jpg" alt=""> </p>
+        </td>
+        <tr>
+            <td>
+
+                <div id="d2" title="Армин" class="ui-widget">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-AieRoMGyPgz4t2E7oa2V5okzLA8YR59Fvw&usqp=CAU"
+                        alt="">
+                    В детстве Армин был очень любознательным и мечтал увидеть мир, находящийся за стенами. Однажды
+                    дедушка показал ему книгу, в которой говорилось о внешнем мире. Он рассказал об этой книге и
+                    информации, содержащейся в ней своему лучшему другу, Эрену Йегеру. Другие дети считали Армина
+                    странным из-за того, что он интересовался внешним миром. Слишком робкий, чтобы защитить себя самому,
+                    Армин полагался на своих друзей, Эрена и Микасу Аккерман, которые защищали его от местных хулиганов.
+                    Вкупе с плохо развитой физической силой, этот факт заставлял Армина стыдиться себя и считать себя
+                    "обузой" для его товарищей. Из-за этого Армин всегда хотел показать свою ценность. В детстве он
+                    мечтал о том, чтобы быть равным своим друзьям.
+                </div>
+
+                <p align="center"> Личность </p>
+                <p>Лучше всего Эрена характеризуют такие определения, как целеустремлённость, упорство, импульсивность.С
+                    самого детсва Эрен мечтал вступить в Разведкорпус и выйти за пределы стен. Он сравнивал жизнь людей
+                    в
+                    Стенах с жизнью скота в клетке.</p>
+
+                <p>Эрен всегда заботился о своём лучшем друге детства, <button id="btn2"> Армине</button> прежде чем
+                    встретился с Микасой и о своей
+                    семье, ради них он был готов пожертвовать жизнью. Чаще всего это демонстрировалось в попытках Эрена
+                    защитить Армина от уличных задир, которые были значитель сильнее их обоих вместе взятых, а также,
+                    когда
+                    он пытался поднять обломки дома, упавшего на его мать в попытках спасти её жизнь во время падения
+                    Шиганшины. Эрен также способен проявлять особую жестокость в защите людей, которых он даже не знает,
+                    но
+                    которым, по его мнению очень нужна помощь. Это было продемонстрировано в тот момент, когда Эрен убил
+                    двух похитителей, зарезавших родителей Микасы. После смерти матери от рук титана, Эрен потерял
+                    контакт
+                    со своим отцом и даже разозлился на него из-за того, что тот не успел вернутся и помочь спасти
+                    Карлу.
+                    Поскольку Эрен очень дорожит своими товарищами, он впадает в ярость, когда понимает, что им грозит
+                    опасность. Однажды Армин позвал Эрена почитать вместе книгу, в которой говорилось о чудесах внешнего
+                    мира, Эрен начал испытывать пренебрежение к жизни в стенах, сравнивая её с жизнью в клетке и к
+                    титанам,
+                    которые заставили Первого Короля возвести эти стены для защиты населения. Эрен сильно восхищается
+                    солдатами Разведкорпуса, считая их героями и желал вступпить в их ряды, как только получит право н
+                    зачисление. Эрен злится, когда кто-то выражает отрицательное мнение о Разведкорпуса и его желание
+                    вступить туда вызвали разногласие с матерью, а также с Микасой. У Эрена была явная нехватка
+                    сдержанности, приводящая к неприятностям, а также заставляющая его друзей и семью беспокоится о нём.
+                    Если Эрена спровоцировать, его гнев может перейти в бешенство и ярость. Хоть позже Эрен и стал более
+                    сдержанным, он ведёт себя еще довльно опрометчиво и безрассудно. Из-за этого Эрен часто оказывался в
+                    опасности и его приходилось спасать. Как и многие дети, Эрен был склонен довльно определённым
+                    образом
+                    делить мир на только чёрное и только белое. С большим состраданием сопереживал другим бедным людям,
+                    такм
+                    же, как и он, считая богачей, и тех кто презирал свободу подонками, не достойными жизни. Хотя Эрен
+                    действительно ценит человеческую жизнь. Его личное понятие справедливости заключалось в том, что
+                    тот,
+                    кто отнимает у людей свободу достоин смерти. С момента смерти матери Эрен полностью сосредоточился
+                    на
+                    ярости по отношению к титанам. Он поставил перед собой цель - уничтожить их всех до последнего.</p>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slider3">
+
+                </div>
+                <b>Внешность: <span id="result3" style="color: rgb(0, 158, 250);"></span></b>
+                <div id="slider=range">
+                    <!--  <input type="text" id="min" value="100">
+                    <input type="text" id="max" value="1000">-->
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slider4">
+
+                </div>
+                <b>Характер: <span id="result4" style="color: rgb(6, 150, 1);"></span></b>
+            </td>
+        </tr>
+    </table>
+    <table border="3" class="anime3">
+        <tr>
+            <th>
+                <h3 align="center"> Аниме Атака Титанов, Хистория Рейсс (Криста Ленц) </h3>
+            </th>
+        </tr>
+        <td>
+            <p align="center "><img src="Без названия (5).jpg" alt=""> </p>
+        </td>
+        <tr>
+            <td>
+
+                <div id="d3" title="Имир Фриц" class="ui-widget">
+
+                    <img src="data:image/jpeg;base64,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"
+                        alt="">
+                    Имир — сложный человек. Сначала она кажется эгоистичной, циничной, властной, хитрой, отказывающейся
+                    от сотрудничества и конфронтации. Так оно и есть, Имир ведёт себя крайне антисоциально, создаётся
+                    общий пессимистичный образ, однако Имир также честный человек, в первую очередь к самой себе. Она
+                    способна открыто показывать самое плохое и придирчивое отношение к разным людям. Но также она
+                    требует честности и со стороны окружающих, она довольно хорошо видит, что люди скрывают в себе и
+                    часто пользуется этим, чтобы откровенно покопаться в их личностях. Она полна убеждений, её главный
+                    (и один из немногих) принцип гласит, что человек в первую очередь должен жить для себя и не взирая
+                    на мнение окружающих быть собой. Таким образом, во многом благодаря влиянию Имир, Хистория приняла
+                    свою настоящую личность и решение жить для себя.
+                </div>
+
+                <p align="center"> Личность </p>
+
+
+                <p>Хистория Рейсс неуверенная в себе, но добрая девушка, готовая помогать людям. Она славится своими
+                    добротой и самопожертвование, поэтому сослуживцы часто называют её "Богиня" и в мыслях предлагают ей
+                    выйти за них замуж.Хисторию легко напугать или вселить в неё неуверенность, но в экстремальных
+                    ситуациях она может действовать смело и решительно. Она и правда вела себя наивно и по-детски, что
+                    иногда доходило до явной фальши.</p>
+                <p>По словам <button id="btn3"> Имиp </button>, её доброта и самопожертвование лишь результат желания
+                    остаться в сердцах людей, чтобы
+                    её запомнили как хорошего и доброго человека. Хистория жила ложной жизнью, попросту боясь отрыть
+                    свою личность, детская травма привела её к тому, что мнение окружающих стало для неё самым важным,
+                    Хистория боялась разочаровать людей вокруг себя. Однако благодаря некоторым событиям и людям
+                    Хистория смогла принять решение жить для себя и отрыть свою личность. После этого она стала намного
+                    серьёзней, проявились черты некой властности, Хистория начала производить впечатление человека,
+                    сильно потрёпаного жизнью. Желание помогать другим никуда не делось, только теперь это искренее
+                    проявлние доброты с её стороны.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slider5">
+
+                </div>
+                <b>Внешность: <span id="result5" style="color: rgb(196, 192, 1);"></span></b>
+                <div id="slider=range">
+                    <!--  <input type="text" id="min" value="100">
+                    <input type="text" id="max" value="1000">-->
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slider6">
+
+                </div>
+                <b>Характер: <span id="result6" style="color: rgb(131, 0, 0);"></span></b>
+            </td>
+        </tr>
+    </table>
+
+    <table border="4" class="anime4">
+        <tr>
+            <th>
+                <h3 align="center"> Аниме Моя Геройская Академия, Тодороки Шото </h3>
+            </th>
+        </tr>
+        <td>
+            <p align="center"><img width="300" src="Без названия (2).jpg" alt=""> </p>
+        </td>
+        <tr>
+            <td>
+
+                <div id="d4" title="Изуки" class="ui-widget">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="">
+                    Изуку — очень робкий, сдержанный и вежливый парень. В начале повествования из-за издёвок в детстве
+                    за то, что родился без Причуды, он выглядит зажатым и невыразительным, особенно на фоне Кацуки. В
+                    подростковом возрасте Изуку был объектом для издевательств, главным инициатором которых был Бакуго.
+                    Но несмотря на это, он продолжает считать Кацуки своим другом, а после поступления в Юэй и победы
+                    над ним в "Пробной битве" он стал увереннее и смелее.
+                </div>
+
+                <p align="center"> Личность </p>
+                <p> Шото холодный и отчужденный.Его характер протекает из его сурового воспитания. Он довольно опытный в
+                    бою, будучи в состоянии оставаться спокойным даже во время борьбы с настоящими злодеями. Хоть он и
+                    жесток в бою, все его действия основаны на этике героизма, поэтому он всегда оставляет своих
+                    противников замороженными, ане убивает их. После события Спортивного фестиваля Шото все еще имееет
+                    отдаленное отношение к другим, но он стал заметно более общительным и добрым, даже приобрел чувство
+                    юмора и иногда улыбается. У Шото было глубокое отвращение к его огненной стороне, которую он
+                    унаслледовал от отца, поскольку она символизировала ненависть его отца по отношению к нему и его
+                    матери, а также то, что он родился, чтобы быть инструментом. Поэтому Шото решил полагаться только на
+                    силу льда и не использовать свою огневую мощь в бою, что даже начал прикрывать свою левую руку и
+                    торс льдом в своем первом костюме героя, символизируя отречение от своего отца.</p>
+                <p> Зачастую Шото чувствовал себя обеспокоенным самим присутствием отца, а разговаривая с ним, он едва
+                    мог сдержать гнев. Во время битвы с <button id="btn4"> Изуку </button> Мидорией на
+                    Спортивном фестивале речь Изуку пробудил у
+                    Шото воспоминание о поддерживаюзих его матери словах, и впервые он использовал свою огненную сторону
+                    в бою. После битвы у Шото были смешанные чуства по поводу использования левой стороны, но после
+                    примирения с матерью, Шото в конце концов смирился с её использованием. Несмотря на шрамы,
+                    причиненные ему матерью, когда он был маленьким ребенком, Шото не демонстрирует никаких тяжёлых
+                    чувств к своей матри, более того он часто навещает её после Спортивного фестиваля. Шото берёт пример
+                    и вдохновение с Всемогущего, как и Изуку с Бакуго, да и все трое имеют очень приятные воспоминания о
+                    просмотре геройств символа мира по теливозору.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slider7">
+
+                </div>
+                <b>Внешность: <span id="result7" style="color: rgb(0, 104, 107);"></span></b>
+                <div id="slider=range">
+                    <!--  <input type="text" id="min" value="100">
+                    <input type="text" id="max" value="1000">-->
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slider8">
+
+                </div>
+                <b>Характер: <span id="result8" style="color: rgb(102, 0, 122);"></span></b>
+            </td>
+        </tr>
+    </table>
+
+
+    <table border="5" class="anime5">
+        <tr>
+            <th>
+                <h3 align="center"> Аниме Класс Убийц, Нагиса Шиота</h3>
+            </th>
+        </tr>
+        <td>
+            <p align="center"><img src="нагиса.jpg" alt=""> </p>
+        </td>
+        <tr>
+            <td>
+
+                <div id="d6" title="Коро-сенсей" class="ui-widget">
+                    <img src="коро.jpg" alt="">
+                   <p> Осьминогообразное искусственно созданное существо. Большая шарообразная голова с широкой улыбкой и
+                    маленькими глазами-бусинками. Он использует две пары щупалец, как руки, остальные же щупальца служат
+                    ногами.У Коро-сенсея есть пара скрытых ноздрей, из-за чего может показаться, что у него есть
+                    дополнительная пара глаз. Одевается в чёрную академическую робу, маленькую чёрную квадратную шляпу с
+                    жёлтой кисточкой и чёрный галстук с жёлтым полумесяцем на нём, который является подарком от Юкимуры
+                    Агури.</p>
+                   <p> Строгий, но заботливый учитель, оставшийся добрым и человечным, несмотря на нелёгкую судьбу.
+                    Выполняет обещания, бескорыстен, прямолинеен, всегда готов помочь, защитить. Быстро переходит из
+                    наивного, печального состояния к серьёзному и другим вариациям эмоций в том числе:
+                    раздражительности, неожиданному смущению или принимает невозмутимый вид. Однако, будучи в ярости
+                    становится хладнокровным, запросто запугивает, не стесняясь применить силу к обидчикам учеников.</p>
+
+                   
+                </div>
+
+                <p align="center"> Личность </p>
+                <p>Нагиса - это собранный и дружелюбный человек, внимательно относящийся к своему окружению и ситуациям,
+                    происходящим вокруг него. Он пристально следит за <button id="btn6">Коро-сенсеем</button>, подмечая
+                    каждую, даже самую
+                    малозначительную деталь и ведет дневник с собственными заметками, надеясь понять мотивы и цели этого
+                    существа.
+                </p>
+                <p>Нагиса кажется куда более замкнутым и застенчивым по сравнению с другими ребятами из класса, из-за
+                    чего часто называет себя "невидимкой". Он нервничает и запинается в важных для него ситуациях,
+                    вероятно, из-за комплекса неполноценности, вызванного словами матери о том, что Нагиса "недостаточно
+                    хорош" - тем не менее, Нагису не так уж сильно пугают или заботят вещи, которые обычному человеку
+                    покажутся как минимум жуткими.</p>
+                <p>Несмотря на спокойствие и доброжелательность по отношению к другим, Нагиса был глубоко не уверен в
+                    себе, своих талантах и в том, как его воспринимают другие люди. Эти комплексы нашли свое отражение в
+                    отсутствии жизненных целей у мальчика и его неуверенности в собственном будущем, что в конечном
+                    счете привело к переводу Нагисы в класс 3-E. Однако, в конце-концов Нагиса научился уважать себя и
+                    стал куда более объективен и лоялен к своим собственным недостаткам, и нашел свою цель в жизни
+                    благодаря стараниям своего учителя и друзей.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slider9">
+
+                </div>
+                <b>Внешность: <span id="result9" style="color: rgb(92, 4, 192);"></span></b>
+                <div id="slider=range">
+                    <!--  <input type="text" id="min" value="100">
+                    <input type="text" id="max" value="1000">-->
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="slider10">
+
+                </div>
+                <b>Характер: <span id="result10" style="color: rgb(143, 47, 127);"></span></b>
+            </td>
+        </tr>
+    </table>
+
+    <h3 align="center"> Мини-тест аниме</h3>
+    <p>Соедените персонажей которые в одном аниме</p>
+
+    <div id="draggable4">
+        <img src="data:image/jpeg;base64,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"
+            alt="">
+    </div>
+    <div id="draggable5">
+        <img width="190" src="7cb61ffc5304ff3d1e6851c39a631db2149acf89v2_hq.jpg" alt="">
+    </div>
+
+    <div id="draggable6">
+        <img src="коро.jpg" alt="">
+    </div>
+
+    <div id="draggable7">
+        <img width="250" src="лугуан.jpg" alt="">
+    </div>
+
+    <div id="droppable6">
+        <img src="нагиса.jpg" alt="">
+    </div>
+
+    <div id="droppable7">
+        <img width="180" src="сяоши.jpg" alt="">
+    </div>
+
+    <p class="karasen"><div id="droppable4">
+        <img width="180" src="шиничи.jpg" alt="">
+    </div></p>
+
+    <div id="droppable5">
+        <img src="Хиро.jpg" alt="">
+    </div>
+
+    
+  
+
+    <a href="lesson3.html">↦Вернутся на главную⟻</a>
+</body>
+
+</html>
